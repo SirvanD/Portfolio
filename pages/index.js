@@ -16,12 +16,6 @@ export default function Home() {
           content="Hi!, I am Sirvan Doukchi, a Full-Stack developer based in Sydney,Australia and this is my Portfolio, check out my projects to see what I've been up to."
         />
         <link rel="icon" href="/favicon.ico" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Sen:wght@400;700&display=swap"
-          rel="stylesheet"
-        />
       </Head>
       <NavBar />
       <About />
