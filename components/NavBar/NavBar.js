@@ -3,7 +3,7 @@ import style from "./NavBar.module.scss";
 function NavBar() {
   return (
     <div className={style.navbar}>
-      <div className="icons">
+      <div className={style.icon}>
         <img src="./images/logo.png" alt="" />
         {/* <img src="logo2.svg" alt="" /> */}
       </div>

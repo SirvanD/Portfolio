@@ -15,11 +15,6 @@
     grid-template-columns: 1fr 2fr;
     justify-content: center;
     align-items: flex-start;
-    /* border: 1px solid red; */
-    /* flex-direction: row;
-  justify-content: center;
-  flex: 1;
-  align-items: flex-start; */
   }
 
   .image_container {
@@ -107,25 +102,20 @@
 @media only screen and (max-width: 992px) {
   .container {
     /* background-color: tomato; */
-    display: flex;
+    display: grid;
     justify-content: center;
     align-items: flex-start;
     margin-top: 10%;
     width: 100vw;
-    height: 75vh;
+    height: 82vh;
   }
 
-  .image_container > img {
-    padding-top: 3%;
-    width: 30vw;
-    height: auto;
-  }
   .about_container {
     display: flex;
 
     justify-content: center;
     align-items: flex-start;
-    border: 1px solid red;
+    // border: 1px solid red;
     flex-direction: row;
     justify-content: center;
     flex: 1;
@@ -140,50 +130,53 @@
     /* border: 1px solid orange; */
   }
   .image_container > img {
-    padding-top: 3%;
-    width: 90%;
-    height: 90%;
+    padding-top: 1%;
+    width: 50%;
+    height: auto;
   }
   .image_divider {
-    margin-left: 5%;
-    margin-top: 2%;
-    border-left: 6px solid #d6a329;
-    height: 45vh;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 4%;
+    border-bottom: 4px solid #d6a329;
+    height: 2vh;
+    border-radius: 5%;
   }
-  .about_right {
-    /* width: 25vw; */
+  // .about_right {
+  //   /* width: 25vw; */
 
-    background-color: #fff;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    /* border: 1px solid cyan; */
-  }
+  //   background-color: #fff;
+  //   display: flex;
+  //   flex-direction: column;
+  //   justify-content: flex-start;
+  //   /* border: 1px solid cyan; */
+  // }
 
   .about_title {
-    font-size: 3.2rem;
+    font-size: 1.6rem;
+    text-align: center;
   }
 
   .about_subtitle {
-    font-size: 2rem;
+    font-size: 1.1rem;
     margin: 1% 0 2% 0;
+    text-align: center;
   }
 
   .about_content {
-    display: flex;
-    font-size: 1.8rem;
-    justify-content: flex-start;
-    width: 40vw;
+    margin-top: 6%;
+    font-size: 1.5rem;
+    text-align: center;
   }
 
-  .social_container {
-    display: flex;
-    // border: 1px solid red;
-    height: 70vh;
-    width: 20vw;
-    align-items: flex-end;
-    justify-content: center;
-  }
+  // .social_container {
+  //   display: grid;
+  //   border: 1px solid red;
+  //   height: 70vh;
+  //   width: 20vw;
+  //   align-items: flex-end;
+  //   justify-content: end;
+  // }
 
   .socials {
     display: grid;
@@ -191,6 +184,7 @@
     column-gap: 0.6rem;
     list-style: none;
     margin: 0.4rem;
+    align-items: flex-end;
   }
 
   .social {

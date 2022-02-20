@@ -14,19 +14,20 @@ import {
 function About() {
   return (
     <section className={style.container}>
-      <div></div>
+      {isBrowser ? <div></div> : null}
+
       <div className={style.about_container}>
         <div className={style.image_container}>
           <img src="./images/image.svg" alt="" />
-          <div className={style.image_divider}></div>
+          {isBrowser ? <div className={style.image_divider}></div> : null}
         </div>
-
+        {isMobile ? <div className={style.image_divider}></div> : null}
         <div className={style.about_right}>
           <div className={style.about_title}>
             <h1>Hi, I'm Sirvan</h1>
           </div>
           <div className={style.about_subtitle}>
-            <h2>Full Stack Developer based in Sydney, Australia</h2>
+            <h2>Full Stack Developer based in Sydney</h2>
           </div>
           <div className={style.about_content}>
             <BrowserView>

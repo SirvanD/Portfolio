@@ -31,16 +31,17 @@
 
 @media only screen and (max-width: 992px) {
   .navbar {
-    width: max-content;
+    width: 100vw;
     padding: 1rem;
     background-color: #2e2a27;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    justify-content: center;
   }
 
   .links {
     display: flex;
-    align-items: center;
+    justify-content: center;
+    align-items: flex-end;
   }
 
   .links > a {
@@ -57,5 +58,8 @@
     color: #ffffff;
     padding-right: 0.7rem;
     padding-left: 0.7rem;
+  }
+  .icon > img {
+    width: 50vw;
   }
 }
