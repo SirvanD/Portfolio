@@ -33,7 +33,7 @@ function About() {
         {isMobile ? <div className={style.image_divider}></div> : null}
         <div className={style.about_right}>
           <div className={style.about_title}>
-            <h2>Hi, I'm Sirvan</h2>
+            <h2>Hi, I&apos;m Sirvan</h2>
           </div>
           <div className={style.about_subtitle}>
             <h3>Full Stack Developer based in Sydney</h3>
