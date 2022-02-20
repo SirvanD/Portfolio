@@ -65,9 +65,10 @@
 
 .skills_using_header {
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.5rem;
   padding-top: 2%;
   padding-bottom: 1%;
+  font-family: Roboto, "Times New Roman", Times, serif;
   /* border: 1px solid orange; */
 }
 
@@ -95,10 +96,11 @@
 }
 
 .skills_learning_header {
-  font-size: 2rem;
+  font-size: 1.5rem;
   text-align: center;
   padding-top: 2%;
   padding-bottom: 1%;
+  font-family: Roboto, "Times New Roman", Times, serif;
 }
 .skills_learning_content {
   display: grid;

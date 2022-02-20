@@ -22,6 +22,9 @@
   font-family: "Roboto", sans-serif;
   // font-family: "Sen", sans-serif;
 }
+// p {
+//   font-family: "Roboto", sans-serif;
+// }
 
 h2,
 h3 {
@@ -30,6 +33,7 @@ h3 {
 }
 
 html {
+  scroll-behavior: smooth !important;
   font-size: 62.5%;
   box-sizing: border-box;
 

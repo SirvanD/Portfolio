@@ -31,18 +31,23 @@ function Skills() {
     rest: { icon: "../../icons/rest.png", title: "REST API" },
   };
   return (
-    <section className={style.container}>
+    <section className={style.container} id="skills">
       <div className="heading">
         <h1 className="text--xl font--heading font--bold space--xl">
           Skill Set
         </h1>
         <p className="text--md font--heading">
-          this is skill page Lorem ipsum dolor sit amet consectetur adipisicing
-          elit.
+          A variety of frameworks, libraries and languages that I have had the
+          opportunity to work with.
         </p>
       </div>
       <ul className={style.list}>
-        <div className={style.skills_using_header}>I am using now:</div>
+        <p className={style.skills_using_header}>
+          <p className="text--md font--heading">
+            I am using now and have experience with
+          </p>
+        </p>
+
         <ul className={style.skillList}>
           <Skill icon={skills.html.icon} title={skills.html.title} />
           <Skill icon={skills.css.icon} title={skills.css.title} />
@@ -65,7 +70,11 @@ function Skills() {
         </ul>
       </ul>
       <ul className={style.list}>
-        <div className={style.skills_learning_header}>I am learning:</div>
+        <p className={style.skills_learning_header}>
+          <p className="text--md font--heading">
+            I am exploring, learning and experimenting with
+          </p>
+        </p>
         <ul className={style.skillList}>
           <Skill icon={skills.ts.icon} title={skills.ts.title} />
           <Skill icon={skills.vue.icon} title={skills.vue.title} />

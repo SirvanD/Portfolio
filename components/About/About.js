@@ -8,17 +8,26 @@ import {
   isBrowser,
   isMobile,
 } from "react-device-detect";
-// import * as rdd from "react-device-detect";
-// rdd.isMobile = true;
-
+import React, { useEffect, useState } from "react";
+const images = ["./images/image.svg", "./images/image2.svg"];
 function About() {
+  const [currentImage, setCurrentImage] = useState("./images/image.svg");
+
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      setCurrentImage(images[Math.floor(Math.random() * images.length)]);
+    }, 5000);
+
+    return () => clearInterval(intervalId);
+  }, []);
+
   return (
-    <section className={style.container}>
+    <section className={style.container} id="about">
       {isBrowser ? <div></div> : null}
 
       <div className={style.about_container}>
         <div className={style.image_container}>
-          <img src="./images/image.svg" alt="" />
+          <img src={currentImage} alt="" />
           {isBrowser ? <div className={style.image_divider}></div> : null}
         </div>
         {isMobile ? <div className={style.image_divider}></div> : null}

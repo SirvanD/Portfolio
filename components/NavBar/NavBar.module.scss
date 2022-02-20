@@ -1,5 +1,11 @@
 @media only screen and (min-width: 992px) {
   .navbar {
+    background-color: transparent;
+    position: sticky;
+    top: 0;
+    background: #000000;
+    z-index: 10;
+    opacity: 1;
     width: 100vw;
     padding: 1rem;
     background-color: #2e2a27;
@@ -34,6 +40,12 @@
 
 @media only screen and (max-width: 992px) {
   .navbar {
+    background-color: transparent;
+    position: sticky;
+    top: 0;
+    background: #000000;
+    z-index: 10;
+    opacity: 1;
     width: 100vw;
     padding: 1rem;
     background-color: #2e2a27;
