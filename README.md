@@ -9,4 +9,4 @@
 
 #### Application ScreenShot
 
-![Screenshot](portfolio_ss.png)
+![Screenshot](portfolio_ss.svg)
