@@ -1,0 +1,28 @@
+.skill_container {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  align-items: center;
+  background-color: var(--color-grey-light);
+  box-shadow: var(--shadow-2);
+  border-radius: 2px;
+  text-align: center;
+  // width: 13rem;
+}
+
+.logo {
+  background-color: var(--color-secondary);
+  height: 3rem;
+  width: 3rem;
+  padding: 0.2rem;
+}
+
+.skill_title {
+  // color: $white;
+  // font-size: 0.6rem;
+  padding: 0 5% 0 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: var(--font-heading);
+}

@@ -1,0 +1,28 @@
+*,
+*::after,
+*::before {
+   margin: 0;
+   padding: 0;
+   box-sizing: inherit;
+
+   font-family: var(--font-text);
+   color: var(--color-text);
+   font-weight: var(--weight-rg);
+}
+
+html {
+   font-size: 62.5%;
+   box-sizing: border-box;
+
+   @media only screen and (min-width: 500px) {
+      font-size: 70%;
+   }
+
+   @media only screen and (min-width: 700px) {
+      font-size: 68.75%;
+   }
+
+   @media only screen and (min-width: 1000px) {
+      font-size: 75%;
+   }
+}

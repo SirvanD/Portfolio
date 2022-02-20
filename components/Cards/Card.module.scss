@@ -1,0 +1,125 @@
+.cardWrapper {
+  list-style: none;
+}
+
+.card {
+  display: grid;
+  width: 70vw;
+  height: 48rem;
+  perspective: 150rem;
+  -moz-perspective: 150rem;
+  position: relative;
+  margin: 2rem;
+  background-color: transparent;
+  border: none;
+
+  @media only screen and (min-width: 650px) {
+    width: 55vw;
+  }
+
+  @media only screen and (min-width: 800px) {
+    width: 28rem;
+  }
+
+  &:focus {
+    outline: 1px solid lightgray;
+  }
+
+  // ANIMATION PRESETS
+  opacity: 1;
+
+  .cardSide {
+    transition: all 0.8s ease;
+
+    height: 45rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    overflow: hidden;
+    box-shadow: var(--shadow-1);
+    border-radius: var(--radius-sm);
+    overflow: hidden;
+  }
+
+  .cardFront {
+    display: grid;
+    grid-template-rows: 20rem 1fr max-content;
+    background-color: white;
+
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      -webkit-clip-path: polygon(0 0, 0 90%, 100% 100%, 100% 0);
+      clip-path: polygon(0 0, 0 90%, 100% 100%, 100% 0);
+    }
+
+    span:last-child {
+      text-align: end;
+      padding: 1rem;
+    }
+  }
+
+  .cardBack {
+    transform: rotateY(180deg);
+
+    display: grid;
+    grid-template-rows: max-content 1fr max-content;
+    background-color: orange;
+    padding: 2rem;
+    justify-items: center;
+  }
+}
+
+.cardFlip {
+  .cardFront {
+    transform: rotateY(-180deg) !important;
+  }
+  .cardBack {
+    transform: rotateY(0) !important;
+  }
+}
+
+.details {
+  display: grid;
+  text-align: start;
+  align-content: start;
+  row-gap: 1rem;
+  padding: 0 1.6rem 1rem;
+
+  p {
+    line-height: 1.4;
+  }
+}
+
+.heading {
+  text-align: start;
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+.stack {
+  display: grid;
+  row-gap: 0.6rem;
+  align-content: start;
+  width: 70%;
+  align-self: center;
+  padding-bottom: 2rem;
+}
+
+.buttons {
+  // border: 1px solid red;
+  display: grid;
+  row-gap: 0.8rem;
+}
+
+.text--sm {
+  font-size: 1.6rem;
+}
+
+.text-lg {
+  font-size: 2rem;
+}
