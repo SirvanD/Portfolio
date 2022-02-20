@@ -5,7 +5,7 @@ export const socialData = [
   {
     icon: <GithubIcon />,
     aValues: {
-      href: "https://github.com/benlammers",
+      href: "https://github.com/SirvanD",
       target: "_blank",
       rel: "noopener noreferrer",
     },
@@ -14,14 +14,15 @@ export const socialData = [
   {
     icon: <GmailIcon />,
     aValues: {
-      href: "mailto:21benlammers@gmail.com",
+      href: "mailto:sirvansh@gmail.com",
+      target: "_blank",
     },
     className: "socialGmail",
   },
   {
     icon: <LinkedinIcon />,
     aValues: {
-      href: "https://www.linkedin.com/in/ben-lammers-3bb8bb168/",
+      href: "https://www.linkedin.com/in/sirvan-doukchi/",
       target: "_blank",
       rel: "noopener noreferrer",
     },

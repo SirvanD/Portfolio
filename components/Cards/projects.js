@@ -35,22 +35,22 @@ export const projectsData = [
   {
     title: "Portfolio",
     description: `My personal portfolio used to showcase my experience and achievements as a 
-      web developer. Created with a focus on mobile first design and leveraging modern CSS.`,
-    image: "../../projects/bookshelf.jpg",
+      web developer. Created with a focus on mobile first design and leveraging modern CSS. Try it on your phone now!`,
+    image: "../../projects/portfolio.svg",
     role: "Frontend Application",
     type: "Personal Project",
     stack: [skills.react, skills.js, skills.nextjs, skills.sass, skills.css],
     buttons: [
       {
         text: "View Github Repo",
-        link: "https://github.com/SirvanD/Bookshelf-Client",
+        link: "https://github.com/SirvanD/Portfolio",
         icon: <GithubIcon />,
       },
     ],
   },
   {
     title: "BookShelf",
-    description: `A community library where users can safely signup with email/password or Google account with firebase authentication in place, donate their once loved books to the community, this MERN stack Application is using Google Books API to retrieve Books information.`,
+    description: `A community library where users can safely signup with email or Google account with firebase authentication in place, donate their once loved books to the community, this MERN stack Application is using Google Books API to retrieve Books data.`,
     image: "../../projects/bookshelf.jpg",
     role: "Full Stack Application",
 

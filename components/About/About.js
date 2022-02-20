@@ -24,27 +24,45 @@ function About() {
         {isMobile ? <div className={style.image_divider}></div> : null}
         <div className={style.about_right}>
           <div className={style.about_title}>
-            <h1>Hi, I'm Sirvan</h1>
+            <h2>Hi, I'm Sirvan</h2>
           </div>
           <div className={style.about_subtitle}>
-            <h2>Full Stack Developer based in Sydney</h2>
+            <h3>Full Stack Developer based in Sydney</h3>
           </div>
           <div className={style.about_content}>
             <BrowserView>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Dolorum, natus officia quae laboriosam veritatis molestiae
-                facilis error architecto odit, molestias nobis, perspiciatis
-                aliquid! Dolorum, natus officia quae laboriosam veritatis
-                molestiae facilis error architecto odit, molestias nobis,
-                perspiciatis aliquid! Ipsum, quibusdam! Eius maiores repudiandae
-                illum modi.
+                A recent graduate of General Assembly full-time Software
+                Engineering bootcamp who enjoys using logic and reason to find
+                elegant and effective solutions to complex problems.
+              </p>
+              <p>
+                I am motivated to learn how to leverage industry leading
+                frameworks and approaching everyday as an opportunity to extend
+                my knowledge.
+              </p>
+              <p>
+                Shaping ideas and bringing them alive all the way from
+                brainstorming stage to implementing on browsers is something I
+                can not say no to!
+              </p>
+              <p>
+                Checkout my skills and a few of my favorite projects below and
+                connect if you like to.
               </p>
             </BrowserView>
             <MobileView>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Dolorum,
+                A recent graduate of General Assembly full-time Software
+                Engineering bootcamp who enjoys using logic and reason to find
+                elegant and effective solutions to complex problems.
+                <p>
+                  I am motivated to learn how to leverage industry leading
+                  frameworks and approaching everyday as an opportunity to
+                  extend my knowledge. Shaping ideas and bringing them alive all
+                  the way from brainstorming stage to implementing on browsers
+                  is something I can not say no to!
+                </p>
               </p>
             </MobileView>
           </div>

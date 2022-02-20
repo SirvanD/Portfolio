@@ -1,37 +1,21 @@
 .container {
-  // /* border: 1px solid blue; */
-  // width: 100vw;
-  // height: 90vh;
-  // display: grid;
   background-color: #ffc331;
-  // grid-template-columns: 1fr 4fr 1fr;
-  // // border: 1px solid blue;
-  // // align-items: center;
-  // // justify-content: center;
-  // // padding: 2rem;
   display: grid;
   justify-items: center;
-  row-gap: 3rem;
+  row-gap: 1rem;
   padding: 6rem 0;
   @media only screen and (min-width: 700px) {
-    padding: 10rem 0;
+    padding: 7rem 0;
   }
 }
-
-// .skills_container {
-//   // background-color: #fff;
-//   // border: 5px solid #d6a329;
-//   border-radius: 5px;
-//   display: grid;
-//   grid-template-rows: 0.5fr 20rem 20rem;
-//   gap: 2rem;
-// }
 
 .list {
   width: 100%;
   display: grid;
   row-gap: 1.4rem;
   list-style: none;
+  // border: 1px solid red;
+  // background-color: white;
 }
 
 .skillList {
@@ -82,7 +66,8 @@
 .skills_using_header {
   text-align: center;
   font-size: 2rem;
-  padding-top: 3%;
+  padding-top: 2%;
+  padding-bottom: 1%;
   /* border: 1px solid orange; */
 }
 
@@ -112,7 +97,8 @@
 .skills_learning_header {
   font-size: 2rem;
   text-align: center;
-  padding-top: 10%;
+  padding-top: 2%;
+  padding-bottom: 1%;
 }
 .skills_learning_content {
   display: grid;
