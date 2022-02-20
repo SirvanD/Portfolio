@@ -5,7 +5,6 @@ function NavBar() {
     <div className={style.navbar}>
       <div className={style.icon}>
         <img src="./images/logo.png" alt="" />
-        {/* <img src="logo2.svg" alt="" /> */}
       </div>
       <nav className={style.links}>
         <a href="">About</a> <h1>/</h1>

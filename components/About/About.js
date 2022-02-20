@@ -1,7 +1,7 @@
 import style from "./About.module.scss";
 import { socialData } from "../../public/social";
 import { ExternalIcon } from "../../public/icons";
-import Social from "../social/social";
+import Social from "../Social/Social";
 import {
   BrowserView,
   MobileView,

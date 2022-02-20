@@ -1,8 +1,10 @@
 import Head from "next/head";
 import Image from "next/image";
+import Connect from "../components/Connect/Connect";
 
 import About from "../components/About/About";
 import Cards from "../components/Cards/Cards";
+import Footer from "../components/Footer/Footer";
 import NavBar from "../components/NavBar/NavBar";
 import Skills from "../components/Skills/Skills";
 
@@ -23,6 +25,8 @@ export default function Home() {
       <About />
       <Skills />
       <Cards />
+      <Footer />
+      {/* <Connect /> */}
     </div>
   );
 }

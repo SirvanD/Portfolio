@@ -13,7 +13,9 @@
   flex-wrap: wrap;
   justify-content: center;
   width: 100%;
-  height: 100vh;
+  // height: min-content;
   max-width: 120rem;
+  // border: 2px solid red;
+
   // background-color: lightgrey;
 }
