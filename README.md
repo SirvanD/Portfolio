@@ -4,7 +4,7 @@
 
 - Created with a focus on mobile first design and leveraging modern CSS. Try it on your phone now!
      
-- Front End - ReactJS, NextJS, and SASS for styling CSS Node.JS, <a href="https://sirvan.dev/"> Demo </a>
+- Front End Stack: ReactJS, NextJS, and SASS for styling CSS Node.JS, <a href="https://sirvan.dev/"> Demo </a>
 
 
 #### Application ScreenShot
