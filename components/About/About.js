@@ -46,14 +46,14 @@ function About() {
                 elegant and effective solutions to complex problems.
               </p>
               <p>
-                I am motivated to learn how to leverage industry leading
-                frameworks and approaching everyday as an opportunity to extend
-                my knowledge.
+                I am curious and motivated to learn how to leverage industry
+                leading frameworks and approaching everyday as an opportunity to
+                extend my knowledge.
               </p>
               <p>
-                Shaping ideas and bringing them alive all the way from
-                brainstorming stage to implementing on browsers is something I
-                can not say no to!
+                Shaping ideas, strong attention to details and bringing them
+                alive all the way from brainstorming stage to implementing on
+                browsers is something I can not say no to!
               </p>
               <p>
                 Checkout my skills and a few of my favorite projects below and
@@ -62,15 +62,14 @@ function About() {
             </BrowserView>
             <MobileView>
               <p>
-                A recent graduate of General Assembly full-time Software
-                Engineering bootcamp who enjoys using logic and reason to find
-                elegant and effective solutions to complex problems.
+                A graduate of General Assembly full-time Software Engineering
+                bootcamp who enjoys using logic and reason to find elegant and
+                effective solutions to complex problems.
                 <p>
-                  I am motivated to learn how to leverage industry leading
+                  As a developer, I am curious with strong attention to details
+                  and motivated to learn how to leverage industry leading
                   frameworks and approaching everyday as an opportunity to
-                  extend my knowledge. Shaping ideas and bringing them alive all
-                  the way from brainstorming stage to implementing on browsers
-                  is something I can not say no to!
+                  extend my knowledge.
                 </p>
               </p>
             </MobileView>
