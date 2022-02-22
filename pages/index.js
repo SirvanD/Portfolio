@@ -16,21 +16,36 @@ export default function Home() {
           content="Hi!, I am Sirvan Doukchi, a Full-Stack developer based in Sydney,Australia and this is my Portfolio, check out my projects to see what I've been up to."
         />
         <link rel="icon" href="/favicon.ico" />
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-FZT1RM9HE8"></script>
-         <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
 
-            gtag('config', 'G-FZT1RM9HE8');
-          </script>
+        {/* <script async src="https://www.googletagmanager.com/gtag/js?id=G-FZT1RM9HE8" />
+<script
+  window.dataLayer = window.dataLayer || []
+  function gtag(){dataLayer.push(arguments)}
+  gtag('js', new Date())
+gtag('config', 'G-FZT1RM9HE8')
+/> */}
+
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-FZT1RM9HE8"
+        />
+
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-FZT1RM9HE8', { page_path: window.location.pathname });
+            `,
+          }}
+        />
       </Head>
       <NavBar />
       <About />
       <Skills />
       <Cards />
       <Footer />
-      {/* <Connect /> */}
     </div>
   );
 }
