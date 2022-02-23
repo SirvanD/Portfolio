@@ -141,6 +141,11 @@ export const projectsData = [
         link: "https://github.com/SirvanD/Project-The-Game",
         icon: <GithubIcon />,
       },
+      {
+        text: "View Site",
+        link: "https://sirvand.github.io/Project-The-Game/",
+        icon: <ExternalIcon />,
+      },
     ],
   },
 ];
