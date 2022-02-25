@@ -47,7 +47,7 @@ const Card = ({ project }) => {
                   key={index}
                   onFocus={() => setFlip(true)}
                 >
-                  <span className="styles.text--sm">{button.text}</span>
+                  <span className={styles.text_sm}>{button.text}</span>
 
                   {button.icon}
                 </a>

@@ -9,6 +9,7 @@ function Footer() {
         <h4>
           &copy; 2022, Site design inspired by{" "}
           <a
+            className={style.link}
             href="https://www.benlammers.dev/"
             target="_blank"
             rel="noopener noreferrer"

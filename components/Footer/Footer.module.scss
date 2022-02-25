@@ -32,6 +32,10 @@
     align-self: center;
   }
 
+  .link {
+    color: white;
+  }
+
   .socials {
     display: grid;
     grid-template-columns: repeat(3, min-content);
@@ -89,6 +93,10 @@
     justify-content: center;
     align-self: center;
     text-align: center;
+  }
+
+  .link {
+    color: white;
   }
 
   .socials {
