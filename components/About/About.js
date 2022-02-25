@@ -63,8 +63,8 @@ function About() {
             <MobileView>
               <p>
                 A graduate of General Assembly full-time Software Engineering
-                Bootcamp who enjoys using logic and reason to find elegant and
-                effective solutions to complex problems.
+                Bootcamp who enjoys using logic and reason to find effective
+                solutions to complex problems.
                 <p>
                   As a developer, I am curious with strong attention to details
                   and motivated to learn how to leverage industry leading
