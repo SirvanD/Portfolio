@@ -8,7 +8,11 @@ function Footer() {
       <div className={style.icon}>
         <h4>
           &copy; 2022, Site inspired by{" "}
-          <a href="https://www.benlammers.dev/" target="_blank">
+          <a
+            href="https://www.benlammers.dev/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Ben Lammers
           </a>
           <h4 className={style.tech_stack}>
