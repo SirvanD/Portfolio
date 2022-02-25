@@ -7,8 +7,13 @@ function Footer() {
     <div className={style.footer}>
       <div className={style.icon}>
         <h4>
-          &copy; 2022, Site powered by React, NextJS, SASS, and deployed on
-          Vercel
+          &copy; 2022, Site inspired by{" "}
+          <a href="https://www.benlammers.dev/" target="_blank">
+            Ben Lammers
+          </a>
+          <h4 className={style.tech_stack}>
+            Powered by React, NextJS, SASS, and deployed to Vercel
+          </h4>
         </h4>
       </div>
 

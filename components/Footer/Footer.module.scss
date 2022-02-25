@@ -25,7 +25,7 @@
 
   .icon > h4 {
     font-size: 1.2rem;
-    font-weight: 900;
+    font-weight: 700;
     color: #ffffff;
     padding-right: 0.7rem;
     padding-left: 0.7rem;
@@ -48,6 +48,10 @@
       padding: 0.2rem;
       border: 3px solid white;
     }
+  }
+  .tech_stack {
+    color: #ffc331;
+    font-weight: 700;
   }
 }
 
@@ -79,10 +83,11 @@
 
   .icon > h4 {
     font-size: 0.8rem;
-    font-weight: 900;
+    font-weight: 700;
     color: #ffffff;
     justify-content: center;
     align-self: center;
+    text-align: center;
   }
 
   .socials {
@@ -95,12 +100,17 @@
   .socials {
     svg {
       fill: var(--color-grey);
-      width: 3rem;
-      height: 3rem;
+      width: 4rem;
+      height: 4rem;
       border-radius: 50%;
       padding: 0.2rem;
       background-color: #ffc331;
       border: 3px solid white;
     }
+  }
+  .tech_stack {
+    color: #ffc331;
+    font-weight: 700;
+    padding-top: 2%;
   }
 }

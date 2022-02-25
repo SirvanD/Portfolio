@@ -8,8 +8,8 @@ function Cards() {
       <div className="heading">
         <h1 className="text--xl font--heading font--bold">Projects</h1>
         <p className="text--md font--heading">
-          Reinforcing my knowledge practically by applying new skills and
-          open-source frameworks to complete below projects.
+          I constantly endeavour to use new techs in every project to learn a
+          new skill along the way while completing them.
         </p>
       </div>
       <ul className={styles.list}>

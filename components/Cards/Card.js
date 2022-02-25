@@ -5,8 +5,6 @@ import Skill from "../Skills/Skill";
 import styles from "./Card.module.scss";
 
 const Card = ({ project }) => {
-  // const [ref, inView] = useInView({ threshold: 0.2, triggerOnce: true });
-
   const [flip, setFlip] = useState(false);
 
   return (

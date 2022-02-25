@@ -21,13 +21,6 @@
     width: 28rem;
   }
 
-  &:focus {
-    outline: 1px solid lightgray;
-  }
-
-  // ANIMATION PRESETS
-  opacity: 1;
-
   .cardSide {
     transition: all 0.8s ease;
 
@@ -111,7 +104,6 @@
 }
 
 .buttons {
-  // border: 1px solid red;
   display: grid;
   row-gap: 0.8rem;
 }

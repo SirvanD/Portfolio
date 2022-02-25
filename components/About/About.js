@@ -42,8 +42,8 @@ function About() {
             <BrowserView>
               <p>
                 A recent graduate of General Assembly full-time Software
-                Engineering bootcamp who enjoys using logic and reason to find
-                elegant and effective solutions to complex problems.
+                Engineering Bootcamp who enjoys using logic to find
+                user-friendly and effective solutions to complex problems.
               </p>
               <p>
                 I am curious and motivated to learn how to leverage industry
@@ -63,7 +63,7 @@ function About() {
             <MobileView>
               <p>
                 A graduate of General Assembly full-time Software Engineering
-                bootcamp who enjoys using logic and reason to find elegant and
+                Bootcamp who enjoys using logic and reason to find elegant and
                 effective solutions to complex problems.
                 <p>
                   As a developer, I am curious with strong attention to details

@@ -1,21 +1,8 @@
-// .container {
-//   width: 100vw;
-//   height: 90vh;
-//   background-color: #d6a329;
-// }
-
-// .container_header {
-//   text-align: center;
-// }
 .list {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   width: 100%;
-  // height: min-content;
   max-width: 120rem;
-  // border: 2px solid red;
-
-  // background-color: lightgrey;
 }

@@ -37,8 +37,8 @@ function Skills() {
           Skill Set
         </h1>
         <p className="text--md font--heading">
-          A variety of frameworks, libraries and languages that I have had the
-          opportunity to work with.
+          Throughout my journey, I have had the opportunity to learn and work
+          with a variety of languages, frameworks, and libraries.
         </p>
       </div>
       <ul className={style.list}>
