@@ -42,7 +42,7 @@ export const projectsData = [
     stack: [skills.react, skills.js, skills.nextjs, skills.sass, skills.css],
     buttons: [
       {
-        text: "View Github Repo",
+        text: "View Project Repo",
         link: "https://github.com/SirvanD/Portfolio",
         icon: <GithubIcon />,
       },
@@ -74,7 +74,7 @@ export const projectsData = [
         icon: <GithubIcon />,
       },
       {
-        text: "View Site",
+        text: "View Live Demo",
         link: "https://bookshelf-client-six.vercel.app/",
         icon: <ExternalIcon />,
       },
@@ -102,7 +102,7 @@ export const projectsData = [
         icon: <GithubIcon />,
       },
       {
-        text: "View Site",
+        text: "View Live Demo",
         link: "https://servo-app-heroku.herokuapp.com/",
         icon: <ExternalIcon />,
       },
@@ -122,7 +122,7 @@ export const projectsData = [
         icon: <GithubIcon />,
       },
       {
-        text: "View Site",
+        text: "View Live Demo",
         link: "https://space-watch.herokuapp.com/",
         icon: <ExternalIcon />,
       },
@@ -137,12 +137,12 @@ export const projectsData = [
     stack: [skills.html, skills.js, skills.css],
     buttons: [
       {
-        text: "View Project Git",
+        text: "View Project Repo",
         link: "https://github.com/SirvanD/Project-The-Game",
         icon: <GithubIcon />,
       },
       {
-        text: "View Site",
+        text: "View Live Demo",
         link: "https://sirvand.github.io/Project-The-Game/",
         icon: <ExternalIcon />,
       },

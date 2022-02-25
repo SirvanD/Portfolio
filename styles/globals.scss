@@ -1,16 +1,12 @@
 @import "../styles/sass/base/config";
-
 @import "../styles/sass/components/buttons";
 @import "../styles/sass/components/heading";
 @import "../styles/sass/components/section";
-
 @import "../styles/sass/typography/modifiers";
 @import "../styles/sass/typography/spaces";
 @import "../styles/sass/typography/text";
-
 @import "../styles/sass/variables/colors";
 @import "../styles/sass/variables/layout";
-@import "../styles/sass/variables/themes";
 @import "../styles/sass/variables/typography";
 @import url("https://fonts.googleapis.com/css2?family=Sen:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
@@ -20,11 +16,7 @@
   padding: 0;
   box-sizing: inherit;
   font-family: "Roboto", sans-serif;
-  // font-family: "Sen", sans-serif;
 }
-// p {
-//   font-family: "Roboto", sans-serif;
-// }
 
 h2,
 h3 {

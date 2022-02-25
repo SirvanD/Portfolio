@@ -36,8 +36,6 @@ function Footer() {
           </ul>
         </div>
       </nav>
-
-      {/* <div className={style.connect}></div> */}
     </div>
   );
 }
