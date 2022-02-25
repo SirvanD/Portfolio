@@ -18,10 +18,10 @@ const Card = ({ project }) => {
         <div className={`${styles.cardSide} ${styles.cardFront}`}>
           <img src={project.image} alt={project.title} />
           <div className={styles.details}>
-            <h2 className="text--lg font--bold">{project.title}</h2>
+            <h2 className={styles.text_lg}>{project.title}</h2>
             <p className="text--md">{project.description}</p>
           </div>
-          <span className="text--sm">
+          <span className={styles.flip_note}>
             {isMobile ? "Tap" : "Hover"} Card for Details
           </span>
         </div>

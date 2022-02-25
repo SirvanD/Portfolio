@@ -23,7 +23,6 @@
 
   .cardSide {
     transition: all 0.8s ease;
-
     height: 45rem;
     position: absolute;
     top: 0;
@@ -41,7 +40,8 @@
   .cardFront {
     display: grid;
     grid-template-rows: 20rem 1fr max-content;
-    background-color: white;
+    // background-color: white;
+    background-color: rgb(248, 248, 248);
 
     img {
       height: 100%;
@@ -114,6 +114,16 @@
   color: black;
 }
 
-.text-lg {
+.text_lg {
   font-size: 2rem;
+}
+
+.flip_note {
+  font-size: 1rem;
+  font-weight: 500;
+  background-color: #ffd772;
+  width: fit-content;
+  justify-self: flex-end;
+  // border-top-left-radius: 7%;
+  border-radius: 25px 0 0 0;
 }
