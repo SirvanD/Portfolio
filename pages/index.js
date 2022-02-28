@@ -13,7 +13,7 @@ export default function Home() {
       <Head>
         <title>Sirvan Doukchi Portfolio</title>
         <meta
-          name="Sirvan Doukchi Portfolio -Full Stack Software Engineer"
+          name="Sirvan Doukchi Portfolio - Full Stack Software Engineer"
           content="Hi!, I am Sirvan Doukchi, a Full-Stack developer based in Sydney,Australia and this is my Portfolio, check out my projects to see what I've been up to."
         />
         <link rel="icon" href="/favicon.ico" />
