@@ -7,7 +7,7 @@ function Footer() {
     <div className={style.footer}>
       <div className={style.icon}>
         <h4>
-          &copy; 2022, Designed by Sirvan Doukchi, Inspired by
+          &copy; 2022, Designed by Sirvan Doukchi, Inspired by{" "}
           <a
             className={style.link}
             href="https://www.benlammers.dev/"
