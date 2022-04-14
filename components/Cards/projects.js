@@ -29,6 +29,7 @@ const skills = {
   prisma: { icon: "../../icons/prisma.png", title: "Prisma" },
   heroku: { icon: "../../icons/heroku.svg", title: "Heroku" },
   rest: { icon: "../../icons/rest.png", title: "REST API" },
+  jest: { icon: "../../icons/jest.svg", title: "Jest Unit Testing" },
 };
 
 export const projectsData = [
@@ -38,7 +39,14 @@ export const projectsData = [
     image: "../../projects/portfolio.svg",
     role: "Frontend Application",
     type: "Personal Project",
-    stack: [skills.react, skills.js, skills.nextjs, skills.sass, skills.css],
+    stack: [
+      skills.react,
+      skills.js,
+      skills.nextjs,
+      skills.sass,
+      skills.css,
+      skills.jest,
+    ],
     buttons: [
       {
         text: "View Project Repo",
