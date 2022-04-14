@@ -29,6 +29,7 @@ function Skills() {
     prisma: { icon: "../../icons/prisma.png", title: "Prisma" },
     heroku: { icon: "../../icons/heroku.svg", title: "Heroku" },
     rest: { icon: "../../icons/rest.png", title: "REST API" },
+    jest: { icon: "../../icons/jest.svg", title: "Jest, Unit testing" },
   };
   return (
     <section className={style.container} id="skills">
@@ -67,6 +68,7 @@ function Skills() {
           <Skill icon={skills.git.icon} title={skills.git.title} />
           <Skill icon={skills.jira.icon} title={skills.jira.title} />
           <Skill icon={skills.aws.icon} title={skills.aws.title} />
+          <Skill icon={skills.jest.icon} title={skills.jest.title} />
         </ul>
       </ul>
       <ul className={style.list}>
