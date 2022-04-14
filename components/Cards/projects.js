@@ -29,14 +29,14 @@ const skills = {
   prisma: { icon: "../../icons/prisma.png", title: "Prisma" },
   heroku: { icon: "../../icons/heroku.svg", title: "Heroku" },
   rest: { icon: "../../icons/rest.png", title: "REST API" },
-  jest: { icon: "../../icons/jest.svg", title: "Jest Unit Testing" },
+  jest: { icon: "../../icons/jest.svg", title: "Jest" },
 };
 
 export const projectsData = [
   {
     title: "Prince's Theatre",
-    description: `A simple objective oriented application where using a tricky and inconsistent API endpoint, it repeats the API call until getting a response and returns the rates for 2 given streaming providers for popular star wars titles at the best value possible highlighted.`,
-    image: "../../projects/portfolio.svg",
+    description: `A simple objective oriented application where using a tricky and inconsistent API endpoint, it repeats the API call until getting a response and returns the rates for popular star wars titles at the best value highlighted. Unit tested and API call mocked`,
+    image: "../../projects/PTSS.png",
     role: "Frontend Application",
     type: "Personal Project",
     stack: [
