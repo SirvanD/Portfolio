@@ -113,8 +113,9 @@
 
   .image_container {
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
+    // justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
   .image_container > img {
     width: 43%;
