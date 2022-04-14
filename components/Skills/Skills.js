@@ -29,7 +29,7 @@ function Skills() {
     prisma: { icon: "../../icons/prisma.png", title: "Prisma" },
     heroku: { icon: "../../icons/heroku.svg", title: "Heroku" },
     rest: { icon: "../../icons/rest.png", title: "REST API" },
-    jest: { icon: "../../icons/jest.svg", title: "Jest" },
+    jest: { icon: "../../icons/jest2.png", title: "Jest" },
   };
   return (
     <section className={style.container} id="skills">
