@@ -33,6 +33,26 @@ const skills = {
 
 export const projectsData = [
   {
+    title: "Prince's Theatre",
+    description: `A simple objective oriented application where using a tricky and inconsistent API endpoint, it repeats the API call until getting a response and returns the rates for 2 given streaming providers for popular star wars titles at the best value possible highlighted.`,
+    image: "../../projects/portfolio.svg",
+    role: "Frontend Application",
+    type: "Personal Project",
+    stack: [skills.react, skills.js, skills.nextjs, skills.sass, skills.css],
+    buttons: [
+      {
+        text: "View Project Repo",
+        link: "https://github.com/SirvanD/Princes-Theatre",
+        icon: <GithubIcon />,
+      },
+      {
+        text: "View Live Demo",
+        link: "https://princes-theatre-zeta.vercel.app/",
+        icon: <ExternalIcon />,
+      },
+    ],
+  },
+  {
     title: "Portfolio",
     description: `My personal portfolio used to showcase my experience and achievements as a 
       web developer. Created with a focus on mobile first design and leveraging modern CSS. Try it on your phone now!`,
