@@ -39,14 +39,7 @@ export const projectsData = [
     image: "../../projects/PTSS.svg",
     role: "Frontend Application",
     type: "Personal Project",
-    stack: [
-      skills.react,
-      skills.js,
-      skills.nextjs,
-      skills.sass,
-      skills.css,
-      skills.jest,
-    ],
+    stack: [skills.react, skills.js, skills.sass, skills.css, skills.jest],
     buttons: [
       {
         text: "View Project Repo",
