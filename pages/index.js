@@ -6,7 +6,7 @@ import Cards from "../components/Cards/Cards";
 import Footer from "../components/Footer/Footer";
 import NavBar from "../components/NavBar/NavBar";
 import Skills from "../components/Skills/Skills";
-//adding header title and favicon
+//adding header title and favicon and footer
 export default function Home() {
   return (
     <div>
