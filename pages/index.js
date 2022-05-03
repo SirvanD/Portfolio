@@ -8,7 +8,7 @@ import NavBar from "../components/NavBar/NavBar";
 import Skills from "../components/Skills/Skills";
 //adding header title and favicon and footer
 //extra comment
-//extra comment 6
+//extra comment 7
 export default function Home() {
   return (
     <div>
