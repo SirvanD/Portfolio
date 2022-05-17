@@ -1,6 +1,6 @@
 import React from "react";
 import { GithubIcon, GmailIcon, LinkedinIcon } from "./../public/icons";
-//exporting social object 9
+//exporting social object 10
 export const socialData = [
   {
     icon: <GithubIcon />,
