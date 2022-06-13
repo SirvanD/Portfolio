@@ -40,7 +40,7 @@ export const projectsData = [
   {
     title: "MyTaxi",
     description: `MyTaxi is an Uber inspired mobile application, where based on origin and destination information provided by user, will show markers and the path from origin to target. Also adding in near future are the distance from A to B, calculated price and ride options`,
-    image: "../../projects/PTSS.svg",
+    image: "../../projects/mytaxi.jpg",
     role: "Mobile Application",
     type: "Personal Project",
     stack: [skills.react_native, skills.js, skills.redux, skills.tailwind],
