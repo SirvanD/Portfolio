@@ -30,6 +30,10 @@ function Skills() {
     heroku: { icon: "../../icons/heroku.svg", title: "Heroku" },
     rest: { icon: "../../icons/rest.png", title: "REST API" },
     jest: { icon: "../../icons/jest2.png", title: "Jest" },
+    react_native: {
+      icon: "../../icons/react-native.png",
+      title: "React Native",
+    },
   };
   return (
     <section className={style.container} id="skills">
@@ -55,6 +59,11 @@ function Skills() {
           <Skill icon={skills.js.icon} title={skills.js.title} />
           <Skill icon={skills.ruby.icon} title={skills.ruby.title} />
           <Skill icon={skills.react.icon} title={skills.react.title} />
+          <Skill
+            icon={skills.react_native.icon}
+            title={skills.react_native.title}
+          />
+          <Skill icon={skills.redux.icon} title={skills.redux.title} />
           <Skill icon={skills.node.icon} title={skills.node.title} />
           <Skill icon={skills.nextjs.icon} title={skills.nextjs.title} />
           <Skill icon={skills.sass.icon} title={skills.sass.title} />
@@ -79,12 +88,12 @@ function Skills() {
         </p>
         <ul className={style.skillList}>
           <Skill icon={skills.ts.icon} title={skills.ts.title} />
-          <Skill icon={skills.vue.icon} title={skills.vue.title} />
-          <Skill icon={skills.redux.icon} title={skills.redux.title} />
+          {/* <Skill icon={skills.vue.icon} title={skills.vue.title} /> */}
+
           <Skill icon={skills.tailwind.icon} title={skills.tailwind.title} />
           <Skill icon={skills.stripe.icon} title={skills.stripe.title} />
           <Skill icon={skills.graphql.icon} title={skills.graphql.title} />
-          <Skill icon={skills.prisma.icon} title={skills.prisma.title} />
+          {/* <Skill icon={skills.prisma.icon} title={skills.prisma.title} /> */}
         </ul>
       </ul>
     </section>
