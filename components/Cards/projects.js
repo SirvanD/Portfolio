@@ -39,7 +39,7 @@ const skills = {
 export const projectsData = [
   {
     title: "MyTaxi",
-    description: `A simple objective oriented application where using a tricky and inconsistent API endpoint, it repeats the API call until getting a response and returns the rates for popular star wars titles at the best value highlighted. Unit tested and API call mocked`,
+    description: `MyTaxi is an Uber inspired mobile application, where based on origin and destination information provided by user, will show markers and the path from origin to target. Also adding in near future are the distance from A to B, calculated price and ride options`,
     image: "../../projects/PTSS.svg",
     role: "Frontend Application",
     type: "Personal Project",
