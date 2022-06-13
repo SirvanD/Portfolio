@@ -30,9 +30,34 @@ const skills = {
   heroku: { icon: "../../icons/heroku.svg", title: "Heroku" },
   rest: { icon: "../../icons/rest.png", title: "REST API" },
   jest: { icon: "../../icons/jest2.png", title: "Jest" },
+  react_native: {
+    icon: "../../icons/react-native.png",
+    title: "React Native",
+  },
 };
 
 export const projectsData = [
+  {
+    title: "MyTaxi",
+    description: `A simple objective oriented application where using a tricky and inconsistent API endpoint, it repeats the API call until getting a response and returns the rates for popular star wars titles at the best value highlighted. Unit tested and API call mocked`,
+    image: "../../projects/PTSS.svg",
+    role: "Frontend Application",
+    type: "Personal Project",
+    stack: [skills.react, skills.js, skills.sass, skills.css, skills.jest],
+    buttons: [
+      {
+        text: "View Project Repo",
+        link: "https://github.com/SirvanD/Princes-Theatre",
+        icon: <GithubIcon />,
+      },
+      {
+        text: "View Live Demo",
+        link: "https://princes-theatre-zeta.vercel.app/",
+        icon: <ExternalIcon />,
+      },
+    ],
+  },
+
   {
     title: "Prince's Theatre",
     description: `A simple objective oriented application where using a tricky and inconsistent API endpoint, it repeats the API call until getting a response and returns the rates for popular star wars titles at the best value highlighted. Unit tested and API call mocked`,
