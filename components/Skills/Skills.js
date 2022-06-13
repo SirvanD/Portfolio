@@ -67,6 +67,7 @@ function Skills() {
           <Skill icon={skills.node.icon} title={skills.node.title} />
           <Skill icon={skills.nextjs.icon} title={skills.nextjs.title} />
           <Skill icon={skills.sass.icon} title={skills.sass.title} />
+          <Skill icon={skills.tailwind.icon} title={skills.tailwind.title} />
           <Skill icon={skills.mui.icon} title={skills.mui.title} />
           <Skill icon={skills.bootstrap.icon} title={skills.bootstrap.title} />
           <Skill icon={skills.mongo.icon} title={skills.mongo.title} />
@@ -89,8 +90,6 @@ function Skills() {
         <ul className={style.skillList}>
           <Skill icon={skills.ts.icon} title={skills.ts.title} />
           {/* <Skill icon={skills.vue.icon} title={skills.vue.title} /> */}
-
-          <Skill icon={skills.tailwind.icon} title={skills.tailwind.title} />
           <Skill icon={skills.stripe.icon} title={skills.stripe.title} />
           <Skill icon={skills.graphql.icon} title={skills.graphql.title} />
           {/* <Skill icon={skills.prisma.icon} title={skills.prisma.title} /> */}
