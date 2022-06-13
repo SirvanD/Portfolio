@@ -47,13 +47,8 @@ export const projectsData = [
     buttons: [
       {
         text: "View Project Repo",
-        link: "https://github.com/SirvanD/Princes-Theatre",
+        link: "https://github.com/SirvanD/MyTaxi",
         icon: <GithubIcon />,
-      },
-      {
-        text: "View Live Demo",
-        link: "https://princes-theatre-zeta.vercel.app/",
-        icon: <ExternalIcon />,
       },
     ],
   },
