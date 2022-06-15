@@ -19,7 +19,7 @@ function NavBar() {
           <a href="#skills">Skills</a> <h1>/</h1>
           <a href="#projects">Projects</a>
           <h1>/</h1>
-          <a href="../Sirvan_Doukchi_CV.pdf" target="_blank">
+          <a href="../Sirvan_Doukchi_Resume.pdf" target="_blank">
             Resume
           </a>
         </ul>
