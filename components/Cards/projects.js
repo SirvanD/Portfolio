@@ -39,7 +39,7 @@ const skills = {
 export const projectsData = [
   {
     title: "Taskify",
-    description: `Simple To-Do App built with React TypeScript as my first full typescript app where I could practice implementation of TS with React. Different libraries and hooks of useState, useEffect, useRef, react-beautiful-dnd and React-icons are used to build the features.`,
+    description: `Simple responsive, drag and drop enabled To-Do App built with React TypeScript, where I could practice implementation of TS with React. Different libraries and hooks of useState, useEffect, useRef, react-beautiful-dnd and React-icons are used to build the features.`,
     image: "../../projects/taskify.jpg",
     role: "FrontEnd Application",
     type: "Personal Project",
