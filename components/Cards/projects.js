@@ -38,6 +38,26 @@ const skills = {
 
 export const projectsData = [
   {
+    title: "Taskify",
+    description: `Simple To-Do App built with React TypeScript as my first full typescript app where I could practice implementation of TS with React. Different libraries and hooks of useState, useEffect, useRef, react-beautiful-dnd and React-icons are used to build the features.`,
+    image: "../../projects/taskify.jpg",
+    role: "FrontEnd Application",
+    type: "Personal Project",
+    stack: [skills.react, skills.ts, skills.css, skills.html],
+    buttons: [
+      {
+        text: "View Project Repo",
+        link: "https://github.com/SirvanD/Taskify",
+        icon: <GithubIcon />,
+      },
+      {
+        text: "View Live Demo",
+        link: "https://taskify-two.vercel.app/",
+        icon: <ExternalIcon />,
+      },
+    ],
+  },
+  {
     title: "MyTaxi",
     description: `MyTaxi is an Uber inspired mobile application, where based on origin and destination information provided by user, will show markers and the path from origin to target. Also adding in near future are the distance from A to B, calculated price and ride options`,
     image: "../../projects/mytaxi.jpg",
