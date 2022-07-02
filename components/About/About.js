@@ -48,12 +48,13 @@ function About() {
               <p>
                 I am curious and motivated to learn how to leverage industry
                 leading frameworks and approaching everyday as an opportunity to
-                extend my knowledge.
+                extend my knowledge. Shaping ideas, strong attention to details
+                and bringing them alive all the way from brainstorming stage to
+                implementing on browsers is something I can not say no to!
               </p>
               <p>
-                Shaping ideas, strong attention to details and bringing them
-                alive all the way from brainstorming stage to implementing on
-                browsers is something I can not say no to!
+                I am also a footballer and very fond of my meticulously picked
+                podcast shows!
               </p>
               <p>
                 Checkout my skills and a few of my favorite projects below and
