@@ -1,21 +1,13 @@
-import Social from "../Social/Social";
-import style from "./Footer.module.scss";
-import { socialData } from "../../public/social";
+import Social from '../Social/Social'
+import style from './Footer.module.scss'
+import { socialData } from '../../public/social'
 
 function Footer() {
   return (
     <div className={style.footer}>
       <div className={style.icon}>
         <h4>
-          &copy; 2022, Designed by Sirvan Doukchi, Inspired by{" "}
-          <a
-            className={style.link}
-            href="https://www.benlammers.dev/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Ben Lammers
-          </a>
+          &copy; 2022, Designed by Sirvan Doukchi
           <h4 className={style.tech_stack}>
             Powered by React, NextJS, SASS, and deployed to Vercel
           </h4>
@@ -28,7 +20,7 @@ function Footer() {
           <ul className={style.socials}>
             {socialData.map((social, index) => (
               <Social
-                classNames={[social.className, "socialAccent"]}
+                classNames={[social.className, 'socialAccent']}
                 icon={social.icon}
                 aValues={social.aValues}
                 key={index}
@@ -38,7 +30,7 @@ function Footer() {
         </div>
       </nav>
     </div>
-  );
+  )
 }
 
-export default Footer;
+export default Footer
