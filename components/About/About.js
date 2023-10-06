@@ -48,9 +48,12 @@ function About() {
                 typeSpeed={100}
                 loop
                 backSpeed={20}
-                cursorChar=">"
+                cursorChar=" _"
                 showCursor={true}
-                style={{ fontSize: '2.2rem', fontFamily: 'Sen' }}
+                style={{
+                  fontSize: '2.2rem',
+                  fontFamily: 'Sen',
+                }}
               />
             </h2>
           </div>
