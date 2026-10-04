@@ -44,6 +44,7 @@ function About() {
                   'a colleague',
                   'a partner',
                   'a listener',
+                  'a father',
                 ]}
                 typeSpeed={100}
                 loop
